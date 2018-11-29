@@ -84,7 +84,7 @@ task. The main steps are:
    for more details.)
 
 Initializing application modules and tasks can get somewhat complicated
-with RTOS's similar to Mynewt. Care must be taken that the API provided
+with RTOSes similar to Mynewt. Care must be taken that the API provided
 by a task are initialized prior to being called by another (higher
 priority) task.
 
